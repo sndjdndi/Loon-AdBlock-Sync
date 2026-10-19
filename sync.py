@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import ipaddress
+import re
 import os
 import tempfile
 import time
@@ -74,13 +75,41 @@ def parse(source, name, minimum):
     return rules
 
 
-def render(name, rules):
+def upstream_metadata(source, expected_name):
+    """Read the upstream's own updated timestamp, author and description."""
+    values = {}
+    for line in source.splitlines():
+        match = re.fullmatch(r"#\\s*(NAME|AUTHOR|UPDATED|DESC):\\s*(.*)", line.strip())
+        if match:
+            values[match.group(1)] = match.group(2).strip()
+    if values.get("NAME") != expected_name:
+        raise SyncError(f"{expected_name}: upstream NAME missing or changed")
+    updated = values.get("UPDATED", "")
+    if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} \\(UTC\\+8\\)", updated):
+        raise SyncError(f"{expected_name}: upstream UPDATED missing or invalid: {updated!r}")
+    if not values.get("DESC") or not values.get("AUTHOR"):
+        raise SyncError(f"{expected_name}: upstream description or author missing")
+    return values
+
+
+def render(name, rules, metadata):
+    updated = metadata["UPDATED"]
+    description = metadata["DESC"]
+    author = metadata["AUTHOR"]
+    loon_date = updated.replace("-", "/").split(" (UTC+8)")[0]
     header = [
+        f"#!name={name} (Loon)",
+        f"#!desc={description}",
+        f"#!date={loon_date}",
         f"# NAME: {name} (Loon)",
-        "# Generated from Quantumult X source; use as Loon Remote Rule, policy REJECT.",
+        f"# 规则用途: {description}",
+        f"# 原作者: {author}",
+        f"# 上游更新时间: {updated}",
+        "# 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）",
+        "# 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。",
+        "# Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。",
         f"# UPSTREAM: {BASE}{name}.list",
         f"# SOURCE LICENSE: {LICENSE}",
-        "# MITM is not required.",
         f"# Rule count: {len(rules)}",
         "",
     ]
@@ -99,10 +128,12 @@ def check_retention(path, rules):
 def synchronize(destination=Path("loon"), dry_run=False):
     generated = {}
     for name, minimum in FEEDS.items():
-        rules = parse(fetch(name), name, minimum)
+        source = fetch(name)
+        metadata = upstream_metadata(source, name)
+        rules = parse(source, name, minimum)
         target = destination / f"{name}.list"
         check_retention(target, rules)
-        generated[target] = render(name, rules)
+        generated[target] = render(name, rules, metadata)
         print(f"{name}: validated {len(rules)} rules")
     if dry_run:
         return

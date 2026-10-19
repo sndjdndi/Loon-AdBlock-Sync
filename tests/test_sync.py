@@ -1,7 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
-from sync import SyncError, parse, render, check_retention
+from sync import SyncError, parse, render, check_retention, upstream_metadata
 
 
 class ConversionTests(unittest.TestCase):
@@ -54,10 +54,21 @@ HOST,ad.example.com,REJECT
                 check_retention(path, [f"DOMAIN,ad{i}.test" for i in range(30)])
 
     def test_stable_output_and_attribution(self):
-        a = render("sample", ["DOMAIN,ad.test"])
-        self.assertEqual(a, render("sample", ["DOMAIN,ad.test"]))
+        meta = {"NAME": "sample", "AUTHOR": "Test Author", "UPDATED": "2026-10-19 06:20:23 (UTC+8)", "DESC": "开屏广告专项"}
+        a = render("sample", ["DOMAIN,ad.test"], meta)
+        self.assertEqual(a, render("sample", ["DOMAIN,ad.test"], meta))
         self.assertIn("LICENSE", a)
-        self.assertIn("policy REJECT", a)
+        self.assertIn("REJECT", a)
+        self.assertIn("# 上游更新时间: 2026-10-19 06:20:23 (UTC+8)", a)
+        self.assertIn("每 12 小时", a)
+
+    def test_source_metadata(self):
+        data = "# NAME: sample\\n# AUTHOR: Test Author\\n# UPDATED: 2026-10-19 06:20:23 (UTC+8)\\n# DESC: 开屏广告专项\\n"
+        data = data.replace("\\\\n", "\\n")
+        meta = upstream_metadata(data, "sample")
+        self.assertEqual(meta["UPDATED"], "2026-10-19 06:20:23 (UTC+8)")
+        with self.assertRaises(SyncError):
+            upstream_metadata("# NAME: sample", "sample")
 
 
 if __name__ == "__main__":

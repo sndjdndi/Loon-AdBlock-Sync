@@ -63,8 +63,11 @@ HOST,ad.example.com,REJECT
         self.assertIn("每 12 小时", a)
 
     def test_source_metadata(self):
-        data = "# NAME: sample\\n# AUTHOR: Test Author\\n# UPDATED: 2026-10-19 06:20:23 (UTC+8)\\n# DESC: 开屏广告专项\\n"
-        data = data.replace("\\\\n", "\\n")
+        data = """# NAME: sample
+# AUTHOR: Test Author
+# UPDATED: 2026-10-19 06:20:23 (UTC+8)
+# DESC: 开屏广告专项
+"""
         meta = upstream_metadata(data, "sample")
         self.assertEqual(meta["UPDATED"], "2026-10-19 06:20:23 (UTC+8)")
         with self.assertRaises(SyncError):

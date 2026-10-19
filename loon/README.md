@@ -1,0 +1,1 @@
+Output rules will be generated automatically by GitHub Actions after the first successful run.

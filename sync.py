@@ -79,13 +79,13 @@ def upstream_metadata(source, expected_name):
     """Read the upstream's own updated timestamp, author and description."""
     values = {}
     for line in source.splitlines():
-        match = re.fullmatch(r"#\\s*(NAME|AUTHOR|UPDATED|DESC):\\s*(.*)", line.strip())
+        match = re.fullmatch(r"#\s*(NAME|AUTHOR|UPDATED|DESC):\s*(.*)", line.strip())
         if match:
             values[match.group(1)] = match.group(2).strip()
     if values.get("NAME") != expected_name:
         raise SyncError(f"{expected_name}: upstream NAME missing or changed")
     updated = values.get("UPDATED", "")
-    if not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2} \\(UTC\\+8\\)", updated):
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2} \(UTC\+8\)", updated):
         raise SyncError(f"{expected_name}: upstream UPDATED missing or invalid: {updated!r}")
     if not values.get("DESC") or not values.get("AUTHOR"):
         raise SyncError(f"{expected_name}: upstream description or author missing")

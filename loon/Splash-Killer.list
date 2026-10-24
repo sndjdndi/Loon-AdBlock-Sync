@@ -1,16 +1,16 @@
 #!name=Splash-Killer (Loon)
 #!desc=开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
-#!date=2026/10/23 07:09:51
+#!date=2026/10/24 06:59:36
 # NAME: Splash-Killer (Loon)
 # 规则用途: 开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-10-23 07:09:51 (UTC+8)
+# 上游更新时间: 2026-10-24 06:59:36 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。
 # UPSTREAM: https://raw.githubusercontent.com/hwind2021/QuantumultX-AdBlock-CN/main/quantumultx/filter/Splash-Killer.list
 # SOURCE LICENSE: https://github.com/hwind2021/QuantumultX-AdBlock-CN/blob/main/LICENSE
-# Rule count: 473
+# Rule count: 474
 
 DOMAIN-SUFFIX,24x7adservice.com
 DOMAIN-SUFFIX,2m3gdt0gc.de
@@ -219,6 +219,7 @@ DOMAIN-SUFFIX,kde.qq.com
 DOMAIN-SUFFIX,kuaishouzt.com
 DOMAIN-SUFFIX,leiki-doubleclick-proxy.appspot.com
 DOMAIN-SUFFIX,lf-static.tiktokpangle-cdn-us.com
+DOMAIN-SUFFIX,load.sst.lasadapippen.com
 DOMAIN-SUFFIX,log-hl.snssdk.com
 DOMAIN-SUFFIX,log-sdk.gifshow.com
 DOMAIN-SUFFIX,log-tb.isnssdk.com

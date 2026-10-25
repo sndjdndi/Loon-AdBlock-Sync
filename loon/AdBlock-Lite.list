@@ -1,10 +1,10 @@
 #!name=AdBlock-Lite (Loon)
 #!desc=日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
-#!date=2026/10/24 06:59:36
+#!date=2026/10/25 06:22:21
 # NAME: AdBlock-Lite (Loon)
 # 规则用途: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-10-24 06:59:36 (UTC+8)
+# 上游更新时间: 2026-10-25 06:22:21 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。

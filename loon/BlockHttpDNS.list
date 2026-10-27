@@ -1,10 +1,10 @@
 #!name=BlockHttpDNS (Loon)
 #!desc=阻断 HTTPDNS：防止 App 绕过本地 DNS 解析广告域名，是开屏广告拦截生效的前提
-#!date=2026/10/26 06:24:36
+#!date=2026/10/27 07:41:27
 # NAME: BlockHttpDNS (Loon)
 # 规则用途: 阻断 HTTPDNS：防止 App 绕过本地 DNS 解析广告域名，是开屏广告拦截生效的前提
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-10-26 06:24:36 (UTC+8)
+# 上游更新时间: 2026-10-27 07:41:27 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。

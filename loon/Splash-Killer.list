@@ -1,16 +1,16 @@
 #!name=Splash-Killer (Loon)
 #!desc=开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
-#!date=2026/10/28 07:39:40
+#!date=2026/10/29 07:57:26
 # NAME: Splash-Killer (Loon)
 # 规则用途: 开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-10-28 07:39:40 (UTC+8)
+# 上游更新时间: 2026-10-29 07:57:26 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。
 # UPSTREAM: https://raw.githubusercontent.com/hwind2021/QuantumultX-AdBlock-CN/main/quantumultx/filter/Splash-Killer.list
 # SOURCE LICENSE: https://github.com/hwind2021/QuantumultX-AdBlock-CN/blob/main/LICENSE
-# Rule count: 473
+# Rule count: 468
 
 DOMAIN-SUFFIX,24x7adservice.com
 DOMAIN-SUFFIX,2m3gdt0gc.de
@@ -166,7 +166,6 @@ DOMAIN-SUFFIX,gdtimg.com
 DOMAIN-SUFFIX,gdtqq.cn
 DOMAIN-SUFFIX,gdtrbrsyziwmw.website
 DOMAIN-SUFFIX,gdtsxk.dedoles.pl
-DOMAIN-SUFFIX,gdttmehgfwawc.space
 DOMAIN-SUFFIX,gecko-hl.snssdk.com
 DOMAIN-SUFFIX,gecko-lq.snssdk.com
 DOMAIN-SUFFIX,gecko.snssdk.com
@@ -310,7 +309,6 @@ DOMAIN-SUFFIX,quatanxuan2022.com
 DOMAIN-SUFFIX,rsgdtlpixkack.site
 DOMAIN-SUFFIX,rtlog.isnssdk.com
 DOMAIN-SUFFIX,s-adashx.ut.uc.cn
-DOMAIN-SUFFIX,s-adashx.ut.youku.com
 DOMAIN-SUFFIX,sdfp.snssdk.com
 DOMAIN-SUFFIX,sdgdtz.cn
 DOMAIN-SUFFIX,sdk.mobads.adwangmai.com
@@ -385,17 +383,14 @@ DOMAIN-SUFFIX,uyjmbaiogdtkgwt.com
 DOMAIN-SUFFIX,v6-adashx.ut.amap.com
 DOMAIN-SUFFIX,v6-adashx.ut.ele.me
 DOMAIN-SUFFIX,v6-adashx.ut.taobao.com
-DOMAIN-SUFFIX,v6-adashx.ut.youku.com
 DOMAIN-SUFFIX,vas-hl-x.snssdk.com
 DOMAIN-SUFFIX,video-cn.snssdk.com
 DOMAIN-SUFFIX,visit-server.inmobi-choice.io
 DOMAIN-SUFFIX,vtwqzbrohcgdt.online
 DOMAIN-SUFFIX,vungle.cn
 DOMAIN-SUFFIX,vungle.com
-DOMAIN-SUFFIX,wiiqqxgsgdtdh.space
 DOMAIN-SUFFIX,wlog.kuaishou.com
 DOMAIN-SUFFIX,wxwdpvolofgdt.site
-DOMAIN-SUFFIX,xhfewaybklgdt.site
 DOMAIN-SUFFIX,xladapi.izuiyou.com
 DOMAIN-SUFFIX,xlog.snssdk.com
 DOMAIN-SUFFIX,yeszrgtanxjup.website

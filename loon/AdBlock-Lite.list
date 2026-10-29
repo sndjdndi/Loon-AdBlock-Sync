@@ -1,16 +1,16 @@
 #!name=AdBlock-Lite (Loon)
 #!desc=日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
-#!date=2026/10/28 07:39:40
+#!date=2026/10/29 07:57:26
 # NAME: AdBlock-Lite (Loon)
 # 规则用途: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-10-28 07:39:40 (UTC+8)
+# 上游更新时间: 2026-10-29 07:57:26 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。
 # UPSTREAM: https://raw.githubusercontent.com/hwind2021/QuantumultX-AdBlock-CN/main/quantumultx/filter/AdBlock-Lite.list
 # SOURCE LICENSE: https://github.com/hwind2021/QuantumultX-AdBlock-CN/blob/main/LICENSE
-# Rule count: 22739
+# Rule count: 22704
 
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,001union.com
@@ -789,7 +789,6 @@ DOMAIN-SUFFIX,activity.tuifish.com
 DOMAIN-SUFFIX,activity.yuyiya.com
 DOMAIN-SUFFIX,actlog.dftoutiao.com
 DOMAIN-SUFFIX,actnx.com
-DOMAIN-SUFFIX,actpx.com
 DOMAIN-SUFFIX,actsdk.idreamsky.com
 DOMAIN-SUFFIX,actuallysheep.com
 DOMAIN-SUFFIX,acuityplatform.com
@@ -1501,7 +1500,6 @@ DOMAIN-SUFFIX,adsession.com
 DOMAIN-SUFFIX,adsettings.com
 DOMAIN-SUFFIX,adsfac.eu
 DOMAIN-SUFFIX,adsfac.net
-DOMAIN-SUFFIX,adsfac.us
 DOMAIN-SUFFIX,adsfactor.net
 DOMAIN-SUFFIX,adsfast.com
 DOMAIN-SUFFIX,adsfile.qq.com
@@ -2477,7 +2475,6 @@ DOMAIN-SUFFIX,baigm.com
 DOMAIN-SUFFIX,baimuyuan.com.cn
 DOMAIN-SUFFIX,baitaiad.com
 DOMAIN-SUFFIX,baizhu.cc
-DOMAIN-SUFFIX,baletingo.com
 DOMAIN-SUFFIX,balmoralmkt.com
 DOMAIN-SUFFIX,balvalur.com
 DOMAIN-SUFFIX,bam-x.com
@@ -2956,7 +2953,6 @@ DOMAIN-SUFFIX,browserpusher.com
 DOMAIN-SUFFIX,browserr.top
 DOMAIN-SUFFIX,browsers.support
 DOMAIN-SUFFIX,browsiprod.com
-DOMAIN-SUFFIX,brtsumthree.com
 DOMAIN-SUFFIX,brucelead.com
 DOMAIN-SUFFIX,bruceleadx1.com
 DOMAIN-SUFFIX,bs.5442.com
@@ -4263,7 +4259,6 @@ DOMAIN-SUFFIX,dampdock.com
 DOMAIN-SUFFIX,danangmo.cn
 DOMAIN-SUFFIX,danorenius.com
 DOMAIN-SUFFIX,danpinwu.com
-DOMAIN-SUFFIX,danzhallfes.com
 DOMAIN-SUFFIX,daoyoudao.com
 DOMAIN-SUFFIX,dapaogg.xyz
 DOMAIN-SUFFIX,dapper.net
@@ -4732,7 +4727,6 @@ DOMAIN-SUFFIX,du4rq1xqh3i1k.cloudfront.net
 DOMAIN-SUFFIX,dualstack-logs.amap.com
 DOMAIN-SUFFIX,dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com
 DOMAIN-SUFFIX,duanat.com
-DOMAIN-SUFFIX,dubvacasept.com
 DOMAIN-SUFFIX,dumedia.ru
 DOMAIN-SUFFIX,dunhilltraveldeals.com
 DOMAIN-SUFFIX,duobaoqj.com
@@ -5431,7 +5425,6 @@ DOMAIN-SUFFIX,fisari.com
 DOMAIN-SUFFIX,fix.hpplay.cn
 DOMAIN-SUFFIX,fixcounter.com
 DOMAIN-SUFFIX,fixionmedia.com
-DOMAIN-SUFFIX,fixpass.net
 DOMAIN-SUFFIX,fjdvzx.cn
 DOMAIN-SUFFIX,fjmailia.com
 DOMAIN-SUFFIX,fjs043.cn
@@ -6876,7 +6869,6 @@ DOMAIN-SUFFIX,ipro.com
 DOMAIN-SUFFIX,iproanalytics.com
 DOMAIN-SUFFIX,ipromote.com
 DOMAIN-SUFFIX,iprotrk.com
-DOMAIN-SUFFIX,ipsowrite.com
 DOMAIN-SUFFIX,iptvdeals.com
 DOMAIN-SUFFIX,ipv6monitoring.eu
 DOMAIN-SUFFIX,iqdata.ai
@@ -7171,7 +7163,6 @@ DOMAIN-SUFFIX,jsm.39yst.com
 DOMAIN-SUFFIX,jsmentry.com
 DOMAIN-SUFFIX,jsmjmp.com
 DOMAIN-SUFFIX,jsqmt.qq.com
-DOMAIN-SUFFIX,jsretra.com
 DOMAIN-SUFFIX,jss.haoxyx.com
 DOMAIN-SUFFIX,jssearch.net
 DOMAIN-SUFFIX,jstracker.com
@@ -10377,7 +10368,6 @@ DOMAIN-SUFFIX,refersion.com
 DOMAIN-SUFFIX,refinedads.com
 DOMAIN-SUFFIX,reftagger.com
 DOMAIN-SUFFIX,registration.presonus.com
-DOMAIN-SUFFIX,regulationprivilegescan.top
 DOMAIN-SUFFIX,reichelcormier.bid
 DOMAIN-SUFFIX,reinvigorate.net
 DOMAIN-SUFFIX,reitingi.lv
@@ -11118,7 +11108,6 @@ DOMAIN-SUFFIX,sm2.todgo.com
 DOMAIN-SUFFIX,smaato.com
 DOMAIN-SUFFIX,smaato.net
 DOMAIN-SUFFIX,smac-ssp.com
-DOMAIN-SUFFIX,smaclick.com
 DOMAIN-SUFFIX,smadex.com
 DOMAIN-SUFFIX,smallseotools.com
 DOMAIN-SUFFIX,smart-789.kakamobi.cn
@@ -11621,7 +11610,6 @@ DOMAIN-SUFFIX,svtrd.com
 DOMAIN-SUFFIX,svyksa.info
 DOMAIN-SUFFIX,sw.mobile.sogou.com
 DOMAIN-SUFFIX,swa.gtimg.com
-DOMAIN-SUFFIX,swan-swan-goose.com
 DOMAIN-SUFFIX,swappdl.duoyi.com
 DOMAIN-SUFFIX,swc.weather.com.cn
 DOMAIN-SUFFIX,swe.shylsp.com
@@ -11769,7 +11757,6 @@ DOMAIN-SUFFIX,taplytics.com
 DOMAIN-SUFFIX,tapnative.com
 DOMAIN-SUFFIX,taps.io
 DOMAIN-SUFFIX,tapstream.com
-DOMAIN-SUFFIX,tardangro.com
 DOMAIN-SUFFIX,target.vivid.com
 DOMAIN-SUFFIX,targetedmedia.com.cn
 DOMAIN-SUFFIX,targetfuel.com
@@ -11900,7 +11887,6 @@ DOMAIN-SUFFIX,thisiswaldo.com
 DOMAIN-SUFFIX,thli43.cn
 DOMAIN-SUFFIX,thoughtleadr.com
 DOMAIN-SUFFIX,thrtle.com
-DOMAIN-SUFFIX,thurnflfant.com
 DOMAIN-SUFFIX,thztv.net
 DOMAIN-SUFFIX,tiads.time.com
 DOMAIN-SUFFIX,tianhuicun.com.cn
@@ -12570,7 +12556,6 @@ DOMAIN-SUFFIX,v68.ink
 DOMAIN-SUFFIX,v7.shaoyumuye.com
 DOMAIN-SUFFIX,va-endpoint.com
 DOMAIN-SUFFIX,va.gxpan.cn
-DOMAIN-SUFFIX,vacaneedasap.com
 DOMAIN-SUFFIX,vacwrite.com
 DOMAIN-SUFFIX,val.api.youku.com
 DOMAIN-SUFFIX,val.atm.youku.com
@@ -13041,7 +13026,6 @@ DOMAIN-SUFFIX,wigetmedia.com
 DOMAIN-SUFFIX,wikia-beacon.com
 DOMAIN-SUFFIX,wildhookups.com
 DOMAIN-SUFFIX,wildmatch.com
-DOMAIN-SUFFIX,wildxxxparties.com
 DOMAIN-SUFFIX,wimaxnetworks.cn
 DOMAIN-SUFFIX,win-stock.com.cn
 DOMAIN-SUFFIX,winads.cn
@@ -13509,7 +13493,6 @@ DOMAIN-SUFFIX,yongv.com
 DOMAIN-SUFFIX,yongyuelm.com
 DOMAIN-SUFFIX,yoochoose.net
 DOMAIN-SUFFIX,yooli.com
-DOMAIN-SUFFIX,yoshatia.com
 DOMAIN-SUFFIX,yottos.com
 DOMAIN-SUFFIX,you1ad.com
 DOMAIN-SUFFIX,youborafds01.com
@@ -13577,7 +13560,6 @@ DOMAIN-SUFFIX,yuxyz.com
 DOMAIN-SUFFIX,yuyue008.cn
 DOMAIN-SUFFIX,yvmads.com
 DOMAIN-SUFFIX,yvoria.com
-DOMAIN-SUFFIX,yvzgazds6d.com
 DOMAIN-SUFFIX,yw78.cn
 DOMAIN-SUFFIX,yx1.managershare.com
 DOMAIN-SUFFIX,yxgfcj.com
@@ -14087,7 +14069,6 @@ DOMAIN,activeprospects.com
 DOMAIN,activity.browser.intl.miui.com
 DOMAIN,activity.clotfun.xyz
 DOMAIN,actnx.com
-DOMAIN,actpx.com
 DOMAIN,actuallysheep.com
 DOMAIN,acxiomapac.com
 DOMAIN,ad-back.net
@@ -14446,7 +14427,6 @@ DOMAIN,adsession.com
 DOMAIN,adsettings.com
 DOMAIN,adsfac.eu
 DOMAIN,adsfac.net
-DOMAIN,adsfac.us
 DOMAIN,adsfast.com
 DOMAIN,adsforallmedia.com
 DOMAIN,adshack.com
@@ -15074,7 +15054,6 @@ DOMAIN,baiducdncmn.inter.iqiyi.com
 DOMAIN,baimuyuan.com.cn
 DOMAIN,baitaiad.com
 DOMAIN,baizhu.cc
-DOMAIN,baletingo.com
 DOMAIN,balmoralmkt.com
 DOMAIN,balvalur.com
 DOMAIN,bam-x.com
@@ -15387,7 +15366,6 @@ DOMAIN,browserpusher.com
 DOMAIN,browserr.top
 DOMAIN,browsers.support
 DOMAIN,browsiprod.com
-DOMAIN,brtsumthree.com
 DOMAIN,bruceleadx1.com
 DOMAIN,bs.csshq.com.cn
 DOMAIN,bs.lamrd.cn
@@ -16248,7 +16226,6 @@ DOMAIN,dallavel.com
 DOMAIN,dam.zhqryw.cn
 DOMAIN,damdoor.com
 DOMAIN,danorenius.com
-DOMAIN,danzhallfes.com
 DOMAIN,dapaogg.xyz
 DOMAIN,dapper.net
 DOMAIN,dapxl.com
@@ -16525,7 +16502,6 @@ DOMAIN,du.biqukan.com
 DOMAIN,du01z5hhojprz.cloudfront.net
 DOMAIN,du2uh7rq0r0d3.cloudfront.net
 DOMAIN,du4rq1xqh3i1k.cloudfront.net
-DOMAIN,dubvacasept.com
 DOMAIN,dunhilltraveldeals.com
 DOMAIN,duoduo.net
 DOMAIN,duomilm.com
@@ -17025,7 +17001,6 @@ DOMAIN,fisari.com
 DOMAIN,fix.hpplay.cn
 DOMAIN,fixcounter.com
 DOMAIN,fixionmedia.com
-DOMAIN,fixpass.net
 DOMAIN,fjdvzx.cn
 DOMAIN,fjs043.cn
 DOMAIN,fjs056.cn
@@ -17935,7 +17910,6 @@ DOMAIN,ipro.com
 DOMAIN,iproanalytics.com
 DOMAIN,ipromote.com
 DOMAIN,iprotrk.com
-DOMAIN,ipsowrite.com
 DOMAIN,iptvdeals.com
 DOMAIN,ipv6monitoring.eu
 DOMAIN,iqdata.ai
@@ -18088,7 +18062,6 @@ DOMAIN,jsjs.jbzj.com
 DOMAIN,jsjs.pro
 DOMAIN,jsmentry.com
 DOMAIN,jsmjmp.com
-DOMAIN,jsretra.com
 DOMAIN,jss.haoxyx.com
 DOMAIN,jssearch.net
 DOMAIN,jstracker.com
@@ -20784,7 +20757,6 @@ DOMAIN,slingpic.com
 DOMAIN,slogantrend.de
 DOMAIN,slopeaota.com
 DOMAIN,smac-ssp.com
-DOMAIN,smaclick.com
 DOMAIN,smadex.com
 DOMAIN,smallseotools.com
 DOMAIN,smart-789.kakamobi.cn
@@ -21141,7 +21113,6 @@ DOMAIN,svip.xsmy2.cn
 DOMAIN,svr-prc-01.com
 DOMAIN,svtrd.com
 DOMAIN,svyksa.info
-DOMAIN,swan-swan-goose.com
 DOMAIN,swc.weather.com.cn
 DOMAIN,swe.shylsp.com
 DOMAIN,sweetmedia.org
@@ -21232,7 +21203,6 @@ DOMAIN,tapinfluence.com
 DOMAIN,tapnative.com
 DOMAIN,taps.io
 DOMAIN,tapstream.com
-DOMAIN,tardangro.com
 DOMAIN,target.vivid.com
 DOMAIN,targetfuel.com
 DOMAIN,targetingnow.com
@@ -21327,7 +21297,6 @@ DOMAIN,thirdrespect.com
 DOMAIN,thiscdn.com
 DOMAIN,thisiswaldo.com
 DOMAIN,thrtle.com
-DOMAIN,thurnflfant.com
 DOMAIN,tianhuicun.com.cn
 DOMAIN,tianji520.cn
 DOMAIN,tianjinblg.com
@@ -21766,7 +21735,6 @@ DOMAIN,v3cdn.net
 DOMAIN,v68.ink
 DOMAIN,v7.shaoyumuye.com
 DOMAIN,va-endpoint.com
-DOMAIN,vacaneedasap.com
 DOMAIN,vacwrite.com
 DOMAIN,valatm.cp12.wasu.tv
 DOMAIN,vali-g1.cp31.ott.cibntv.net
@@ -22098,7 +22066,6 @@ DOMAIN,wigetmedia.com
 DOMAIN,wikia-beacon.com
 DOMAIN,wildhookups.com
 DOMAIN,wildmatch.com
-DOMAIN,wildxxxparties.com
 DOMAIN,wimaxnetworks.cn
 DOMAIN,winbuyer.com
 DOMAIN,winitout.com
@@ -22335,7 +22302,6 @@ DOMAIN,yoc-adserver.com
 DOMAIN,yomeno.xyz
 DOMAIN,yomob.com.cn
 DOMAIN,yoochoose.net
-DOMAIN,yoshatia.com
 DOMAIN,yottos.com
 DOMAIN,youborafds01.com
 DOMAIN,youboranqs01.com
@@ -22367,7 +22333,6 @@ DOMAIN,yuppads.com
 DOMAIN,yurivideo.com
 DOMAIN,yvmads.com
 DOMAIN,yvoria.com
-DOMAIN,yvzgazds6d.com
 DOMAIN,yw78.cn
 DOMAIN,yxyhtea.com
 DOMAIN,yy32.com

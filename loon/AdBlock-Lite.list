@@ -1,16 +1,16 @@
 #!name=AdBlock-Lite (Loon)
 #!desc=日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
-#!date=2026/11/10 10:37:43
+#!date=2026/11/11 08:30:49
 # NAME: AdBlock-Lite (Loon)
 # 规则用途: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-11-10 10:37:43 (UTC+8)
+# 上游更新时间: 2026-11-11 08:30:49 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。
 # UPSTREAM: https://raw.githubusercontent.com/hwind2021/QuantumultX-AdBlock-CN/main/quantumultx/filter/AdBlock-Lite.list
 # SOURCE LICENSE: https://github.com/hwind2021/QuantumultX-AdBlock-CN/blob/main/LICENSE
-# Rule count: 22694
+# Rule count: 22676
 
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,001union.com
@@ -1498,7 +1498,6 @@ DOMAIN-SUFFIX,adserving.unibet.com
 DOMAIN-SUFFIX,adservingfactory.com
 DOMAIN-SUFFIX,adsession.com
 DOMAIN-SUFFIX,adsettings.com
-DOMAIN-SUFFIX,adsfac.eu
 DOMAIN-SUFFIX,adsfac.net
 DOMAIN-SUFFIX,adsfactor.net
 DOMAIN-SUFFIX,adsfast.com
@@ -1679,7 +1678,6 @@ DOMAIN-SUFFIX,advertjunction.com
 DOMAIN-SUFFIX,advertlets.com
 DOMAIN-SUFFIX,advertnative.com
 DOMAIN-SUFFIX,advertone.ru
-DOMAIN-SUFFIX,advertpay.net
 DOMAIN-SUFFIX,advertpay.vip.xunlei.com
 DOMAIN-SUFFIX,advertserve.com
 DOMAIN-SUFFIX,advertur.ru
@@ -2275,7 +2273,6 @@ DOMAIN-SUFFIX,asimov-win.settings.data.microsoft.com.akadns.net
 DOMAIN-SUFFIX,aso1.net
 DOMAIN-SUFFIX,asotrack1.fluentmobile.com
 DOMAIN-SUFFIX,asperencium.com
-DOMAIN-SUFFIX,aspignitean.com
 DOMAIN-SUFFIX,assetize.com
 DOMAIN-SUFFIX,assets.2343sdxs.com
 DOMAIN-SUFFIX,assets.cntdy.mobi
@@ -5160,7 +5157,6 @@ DOMAIN-SUFFIX,erate.co.il
 DOMAIN-SUFFIX,erebor.douban.com
 DOMAIN-SUFFIX,ereportz.com
 DOMAIN-SUFFIX,eresmas.net
-DOMAIN-SUFFIX,erniphiq.com
 DOMAIN-SUFFIX,ero-advertising.com
 DOMAIN-SUFFIX,eroadvertising.com
 DOMAIN-SUFFIX,erotikdating.com
@@ -6284,7 +6280,6 @@ DOMAIN-SUFFIX,hoptopboy.com
 DOMAIN-SUFFIX,hornymatches.com
 DOMAIN-SUFFIX,hornyspots.com
 DOMAIN-SUFFIX,horse-racing-affiliate-program.co.uk
-DOMAIN-SUFFIX,hortestoz.com
 DOMAIN-SUFFIX,hospitality-optimizer.com
 DOMAIN-SUFFIX,host-tracker.com
 DOMAIN-SUFFIX,hostave.net
@@ -8590,7 +8585,6 @@ DOMAIN-SUFFIX,mobclix.com
 DOMAIN-SUFFIX,mobday.com
 DOMAIN-SUFFIX,mobfox.com
 DOMAIN-SUFFIX,mobgi.com
-DOMAIN-SUFFIX,mobifobi.com
 DOMAIN-SUFFIX,mobile-10.com
 DOMAIN-SUFFIX,mobile-pubt.ele.me
 DOMAIN-SUFFIX,mobile-service.segment.com
@@ -9063,9 +9057,7 @@ DOMAIN-SUFFIX,node.cdntxt.com
 DOMAIN-SUFFIX,nonissue.com
 DOMAIN-SUFFIX,noowho.com
 DOMAIN-SUFFIX,nordicresearch.com
-DOMAIN-SUFFIX,noretia.com
 DOMAIN-SUFFIX,norma-external-collect.meizu.com
-DOMAIN-SUFFIX,normkela.com
 DOMAIN-SUFFIX,northstartravelmedia.com
 DOMAIN-SUFFIX,notice.game.xiaomi.com
 DOMAIN-SUFFIX,notice.iqiyi.com
@@ -9842,7 +9834,6 @@ DOMAIN-SUFFIX,predictivadvertising.com
 DOMAIN-SUFFIX,predictiveresponse.net
 DOMAIN-SUFFIX,premiumhdv.com
 DOMAIN-SUFFIX,premiumstats.xyz
-DOMAIN-SUFFIX,preonesetro.com
 DOMAIN-SUFFIX,prepareplanes.com
 DOMAIN-SUFFIX,pressly.com
 DOMAIN-SUFFIX,prfct.co
@@ -14420,7 +14411,6 @@ DOMAIN,adserving.unibet.com
 DOMAIN,adservingfactory.com
 DOMAIN,adsession.com
 DOMAIN,adsettings.com
-DOMAIN,adsfac.eu
 DOMAIN,adsfac.net
 DOMAIN,adsfast.com
 DOMAIN,adsforallmedia.com
@@ -14537,7 +14527,6 @@ DOMAIN,advertjunction.com
 DOMAIN,advertlets.com
 DOMAIN,advertnative.com
 DOMAIN,advertone.ru
-DOMAIN,advertpay.net
 DOMAIN,advertpay.vip.xunlei.com
 DOMAIN,advertserve.com
 DOMAIN,advertur.ru
@@ -14907,7 +14896,6 @@ DOMAIN,asimov-win.settings.data.microsoft.com.akadns.net
 DOMAIN,aso1.net
 DOMAIN,asotrack1.fluentmobile.com
 DOMAIN,asperencium.com
-DOMAIN,aspignitean.com
 DOMAIN,assetize.com
 DOMAIN,assets.cntdy.mobi
 DOMAIN,assoc-amazon.ca
@@ -16811,7 +16799,6 @@ DOMAIN,erabaru.net
 DOMAIN,erate.co.il
 DOMAIN,ereportz.com
 DOMAIN,eresmas.net
-DOMAIN,erniphiq.com
 DOMAIN,erotikdating.com
 DOMAIN,erovation.com
 DOMAIN,err.ifengcloud.ifeng.com
@@ -17546,7 +17533,6 @@ DOMAIN,hoptopboy.com
 DOMAIN,hornymatches.com
 DOMAIN,hornyspots.com
 DOMAIN,horse-racing-affiliate-program.co.uk
-DOMAIN,hortestoz.com
 DOMAIN,hospitality-optimizer.com
 DOMAIN,host-tracker.com
 DOMAIN,hostave.net
@@ -19036,7 +19022,6 @@ DOMAIN,mobalives.com
 DOMAIN,mobalyzer.net
 DOMAIN,mobappconfig.securities.eastmoney.com
 DOMAIN,mobday.com
-DOMAIN,mobifobi.com
 DOMAIN,mobile-10.com
 DOMAIN,mobile.banzai.it
 DOMAIN,mobile.pipe.aria.microsoft.com
@@ -19375,9 +19360,7 @@ DOMAIN,node.cdntxt.com
 DOMAIN,nonissue.com
 DOMAIN,noowho.com
 DOMAIN,nordicresearch.com
-DOMAIN,noretia.com
 DOMAIN,norma-external-collect.meizu.com
-DOMAIN,normkela.com
 DOMAIN,northstartravelmedia.com
 DOMAIN,notifadz.com
 DOMAIN,notifpush.com
@@ -19890,7 +19873,6 @@ DOMAIN,predictivadnetwork.com
 DOMAIN,predictiveresponse.net
 DOMAIN,premiumhdv.com
 DOMAIN,premiumstats.xyz
-DOMAIN,preonesetro.com
 DOMAIN,prepareplanes.com
 DOMAIN,pressly.com
 DOMAIN,prfct.co

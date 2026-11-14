@@ -1,20 +1,21 @@
 #!name=Splash-Killer (Loon)
 #!desc=开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
-#!date=2026/11/13 08:58:32
+#!date=2026/11/14 08:49:29
 # NAME: Splash-Killer (Loon)
 # 规则用途: 开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-11-13 08:58:32 (UTC+8)
+# 上游更新时间: 2026-11-14 08:49:29 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。
 # UPSTREAM: https://raw.githubusercontent.com/hwind2021/QuantumultX-AdBlock-CN/main/quantumultx/filter/Splash-Killer.list
 # SOURCE LICENSE: https://github.com/hwind2021/QuantumultX-AdBlock-CN/blob/main/LICENSE
-# Rule count: 469
+# Rule count: 471
 
 DOMAIN-SUFFIX,24x7adservice.com
 DOMAIN-SUFFIX,2m3gdt0gc.de
 DOMAIN-SUFFIX,61-nmobads.com
+DOMAIN-SUFFIX,a8cv.kuradashi.jp
 DOMAIN-SUFFIX,aanyslvgdtooh.website
 DOMAIN-SUFFIX,abtest-ch.snssdk.com
 DOMAIN-SUFFIX,ad.hicloud.com
@@ -234,6 +235,7 @@ DOMAIN-SUFFIX,luntanx18.info
 DOMAIN-SUFFIX,m-adash.m.taobao.com
 DOMAIN-SUFFIX,m.gdt.vip1790.cn
 DOMAIN-SUFFIX,mapp.qzone.qq.com
+DOMAIN-SUFFIX,mbhgdthtfvwvf.space
 DOMAIN-SUFFIX,mcs.snssdk.com
 DOMAIN-SUFFIX,mdevstat.qqlive.qq.com
 DOMAIN-SUFFIX,mercury-sdk.snssdk.com

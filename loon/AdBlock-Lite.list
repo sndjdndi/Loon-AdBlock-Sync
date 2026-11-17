@@ -1,16 +1,16 @@
 #!name=AdBlock-Lite (Loon)
 #!desc=日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
-#!date=2026/11/16 07:53:40
+#!date=2026/11/17 10:51:31
 # NAME: AdBlock-Lite (Loon)
 # 规则用途: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-11-16 07:53:40 (UTC+8)
+# 上游更新时间: 2026-11-17 10:51:31 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。
 # UPSTREAM: https://raw.githubusercontent.com/hwind2021/QuantumultX-AdBlock-CN/main/quantumultx/filter/AdBlock-Lite.list
 # SOURCE LICENSE: https://github.com/hwind2021/QuantumultX-AdBlock-CN/blob/main/LICENSE
-# Rule count: 22676
+# Rule count: 22654
 
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,001union.com
@@ -1300,6 +1300,7 @@ DOMAIN-SUFFIX,adnuntius.com
 DOMAIN-SUFFIX,adnxs.com
 DOMAIN-SUFFIX,adnxs.net
 DOMAIN-SUFFIX,adnyg.com
+DOMAIN-SUFFIX,adnz.co
 DOMAIN-SUFFIX,adobe-dns-2.adobe.com
 DOMAIN-SUFFIX,adobe-dns-3.adobe.com
 DOMAIN-SUFFIX,adobe-dns.adobe.com
@@ -1916,7 +1917,6 @@ DOMAIN-SUFFIX,alert.autohome.com.cn
 DOMAIN-SUFFIX,alertme.news
 DOMAIN-SUFFIX,alerts.ndtv.com
 DOMAIN-SUFFIX,alerts.thedailystar.net
-DOMAIN-SUFFIX,alespeonor.com
 DOMAIN-SUFFIX,algopine.com
 DOMAIN-SUFFIX,alifixed.cn
 DOMAIN-SUFFIX,alikeaddition.com
@@ -2660,7 +2660,6 @@ DOMAIN-SUFFIX,belstat.com
 DOMAIN-SUFFIX,belstat.de
 DOMAIN-SUFFIX,belstat.fr
 DOMAIN-SUFFIX,belstat.nl
-DOMAIN-SUFFIX,beludicolor.com
 DOMAIN-SUFFIX,bench-life.me
 DOMAIN-SUFFIX,benchtag2.co
 DOMAIN-SUFFIX,benniuluntai.cn
@@ -3200,7 +3199,6 @@ DOMAIN-SUFFIX,cautiouscredit.com
 DOMAIN-SUFFIX,cb.baidu.cn
 DOMAIN-SUFFIX,cb.baidu.com
 DOMAIN-SUFFIX,cb.h5.coffeedak.cn
-DOMAIN-SUFFIX,cba-fed-igh.com
 DOMAIN-SUFFIX,cbdm.weathercn.com
 DOMAIN-SUFFIX,cbjg.cqnews.net
 DOMAIN-SUFFIX,cbjs.baidu.cn
@@ -4485,9 +4483,6 @@ DOMAIN-SUFFIX,distiltag.com
 DOMAIN-SUFFIX,distribeo.com
 DOMAIN-SUFFIX,districtm.ca
 DOMAIN-SUFFIX,districtm.io
-DOMAIN-SUFFIX,dit-dit-dot.com
-DOMAIN-SUFFIX,ditdotsol.com
-DOMAIN-SUFFIX,ditwrite.com
 DOMAIN-SUFFIX,divolution.com
 DOMAIN-SUFFIX,dj-updates.com
 DOMAIN-SUFFIX,djr4k68f8n55o.cloudfront.net
@@ -5083,7 +5078,6 @@ DOMAIN-SUFFIX,ekmpinpoint.com
 DOMAIN-SUFFIX,ela-3-tnk.com
 DOMAIN-SUFFIX,elasticad.net
 DOMAIN-SUFFIX,elastx.net
-DOMAIN-SUFFIX,electosake.com
 DOMAIN-SUFFIX,elite-s001.com
 DOMAIN-SUFFIX,elitics.com
 DOMAIN-SUFFIX,eltex.co.jp
@@ -6369,7 +6363,6 @@ DOMAIN-SUFFIX,huidakms.com.cn
 DOMAIN-SUFFIX,huilian.info
 DOMAIN-SUFFIX,huishenghuiying.com
 DOMAIN-SUFFIX,humanclick.com
-DOMAIN-SUFFIX,humsoolt.net
 DOMAIN-SUFFIX,hundun.mobi
 DOMAIN-SUFFIX,hung.ch
 DOMAIN-SUFFIX,hunkal.com
@@ -8257,7 +8250,6 @@ DOMAIN-SUFFIX,matrimoniale3x.ro
 DOMAIN-SUFFIX,matrix-cash.com
 DOMAIN-SUFFIX,matwbp.iask.sina.com.cn
 DOMAIN-SUFFIX,maxiadv.com
-DOMAIN-SUFFIX,maxim.pub
 DOMAIN-SUFFIX,maxonclick.com
 DOMAIN-SUFFIX,maxserving.com
 DOMAIN-SUFFIX,maxtracker.net
@@ -8787,7 +8779,6 @@ DOMAIN-SUFFIX,mydas.mobi
 DOMAIN-SUFFIX,mydisplay.ctfile.com
 DOMAIN-SUFFIX,myeffecto.com
 DOMAIN-SUFFIX,myes.youku.com
-DOMAIN-SUFFIX,myfastcdn.com
 DOMAIN-SUFFIX,myfastcounter.com
 DOMAIN-SUFFIX,mygeek.cn
 DOMAIN-SUFFIX,myhard.com
@@ -9176,7 +9167,6 @@ DOMAIN-SUFFIX,offerreality.com
 DOMAIN-SUFFIX,offerserve.com
 DOMAIN-SUFFIX,offerstrategy.com
 DOMAIN-SUFFIX,offline-adv.oray.com
-DOMAIN-SUFFIX,ofhypnoer.com
 DOMAIN-SUFFIX,oghub.io
 DOMAIN-SUFFIX,ogt.jp
 DOMAIN-SUFFIX,ohmystats.com
@@ -10542,7 +10532,6 @@ DOMAIN-SUFFIX,rtb-media.me
 DOMAIN-SUFFIX,rtb.com.ru
 DOMAIN-SUFFIX,rtb123.com
 DOMAIN-SUFFIX,rtbapi.douyucdn.cn
-DOMAIN-SUFFIX,rtbpop.com
 DOMAIN-SUFFIX,rtbsystem.com
 DOMAIN-SUFFIX,rtbterra.com
 DOMAIN-SUFFIX,rtk.io
@@ -12543,7 +12532,6 @@ DOMAIN-SUFFIX,v68.ink
 DOMAIN-SUFFIX,v7.shaoyumuye.com
 DOMAIN-SUFFIX,va-endpoint.com
 DOMAIN-SUFFIX,va.gxpan.cn
-DOMAIN-SUFFIX,vacwrite.com
 DOMAIN-SUFFIX,val.api.youku.com
 DOMAIN-SUFFIX,val.atm.youku.com
 DOMAIN-SUFFIX,valatm.cp12.wasu.tv
@@ -14293,6 +14281,7 @@ DOMAIN,adnium.com
 DOMAIN,adnmore.co.kr
 DOMAIN,adnow.com
 DOMAIN,adnuntius.com
+DOMAIN,adnz.co
 DOMAIN,adobetag.com
 DOMAIN,adocean.pl
 DOMAIN,adoftheyear.com
@@ -15130,7 +15119,6 @@ DOMAIN,belstat.com
 DOMAIN,belstat.de
 DOMAIN,belstat.fr
 DOMAIN,belstat.nl
-DOMAIN,beludicolor.com
 DOMAIN,benchtag2.co
 DOMAIN,benniuluntai.cn
 DOMAIN,bentonow.com
@@ -15494,7 +15482,6 @@ DOMAIN,cashtrafic.info
 DOMAIN,casualstat.com
 DOMAIN,cautiouscrate.com
 DOMAIN,cautiouscredit.com
-DOMAIN,cba-fed-igh.com
 DOMAIN,cbjg.cqnews.net
 DOMAIN,cbtrk.net
 DOMAIN,cc-dt.com
@@ -16365,9 +16352,6 @@ DOMAIN,distiltag.com
 DOMAIN,distribeo.com
 DOMAIN,districtm.ca
 DOMAIN,districtm.io
-DOMAIN,dit-dit-dot.com
-DOMAIN,ditdotsol.com
-DOMAIN,ditwrite.com
 DOMAIN,divolution.com
 DOMAIN,dj-updates.com
 DOMAIN,djr4k68f8n55o.cloudfront.net
@@ -16743,7 +16727,6 @@ DOMAIN,ekmpinpoint.com
 DOMAIN,ela-3-tnk.com
 DOMAIN,elasticad.net
 DOMAIN,elastx.net
-DOMAIN,electosake.com
 DOMAIN,elite-s001.com
 DOMAIN,elitics.com
 DOMAIN,eltex.co.jp
@@ -17606,7 +17589,6 @@ DOMAIN,huha.ink
 DOMAIN,huidakms.com.cn
 DOMAIN,huilian.info
 DOMAIN,humanclick.com
-DOMAIN,humsoolt.net
 DOMAIN,hundun.mobi
 DOMAIN,hung.ch
 DOMAIN,hunkal.com
@@ -18819,7 +18801,6 @@ DOMAIN,matomo.cloud
 DOMAIN,matrimoniale3x.ro
 DOMAIN,matrix-cash.com
 DOMAIN,maxiadv.com
-DOMAIN,maxim.pub
 DOMAIN,maxonclick.com
 DOMAIN,maxserving.com
 DOMAIN,maxtracker.net
@@ -19157,7 +19138,6 @@ DOMAIN,mycasinoaccounts.com
 DOMAIN,mycounter.com.ua
 DOMAIN,mycounter.ua
 DOMAIN,myeffecto.com
-DOMAIN,myfastcdn.com
 DOMAIN,myfastcounter.com
 DOMAIN,mygeek.cn
 DOMAIN,myhard.com
@@ -20376,7 +20356,6 @@ DOMAIN,rta.dailymail.co.uk
 DOMAIN,rtb-media.me
 DOMAIN,rtb123.com
 DOMAIN,rtbapi.douyucdn.cn
-DOMAIN,rtbpop.com
 DOMAIN,rtbsystem.com
 DOMAIN,rtbterra.com
 DOMAIN,rtk.io
@@ -21707,7 +21686,6 @@ DOMAIN,v3cdn.net
 DOMAIN,v68.ink
 DOMAIN,v7.shaoyumuye.com
 DOMAIN,va-endpoint.com
-DOMAIN,vacwrite.com
 DOMAIN,valatm.cp12.wasu.tv
 DOMAIN,vali-g1.cp31.ott.cibntv.net
 DOMAIN,validclick.com

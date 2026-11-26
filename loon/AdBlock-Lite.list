@@ -1,16 +1,16 @@
 #!name=AdBlock-Lite (Loon)
 #!desc=日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
-#!date=2026/11/25 11:27:56
+#!date=2026/11/26 10:43:31
 # NAME: AdBlock-Lite (Loon)
 # 规则用途: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 # 原作者: QuantumultX-CN
-# 上游更新时间: 2026-11-25 11:27:56 (UTC+8)
+# 上游更新时间: 2026-11-26 10:43:31 (UTC+8)
 # 自动检查间隔: 每 12 小时（GitHub Actions，运行时间可能延迟）
 # 更新时间说明: 来自原 QX 规则的 UPDATED；实际检查时间请查看仓库 Actions。
 # Loon 使用方法: 添加为远程规则，策略选择 REJECT；不是插件，无需 MITM。
 # UPSTREAM: https://raw.githubusercontent.com/hwind2021/QuantumultX-AdBlock-CN/main/quantumultx/filter/AdBlock-Lite.list
 # SOURCE LICENSE: https://github.com/hwind2021/QuantumultX-AdBlock-CN/blob/main/LICENSE
-# Rule count: 22652
+# Rule count: 22637
 
 DOMAIN-SUFFIX,000dn.com
 DOMAIN-SUFFIX,001union.com
@@ -334,7 +334,6 @@ DOMAIN-SUFFIX,49wanwan.com
 DOMAIN-SUFFIX,4affiliate.net
 DOMAIN-SUFFIX,4au.htf16a.cn
 DOMAIN-SUFFIX,4dex.io
-DOMAIN-SUFFIX,4dsbanner.net
 DOMAIN-SUFFIX,4dsply.com
 DOMAIN-SUFFIX,4dtrk.com
 DOMAIN-SUFFIX,4f2sm1y1ss.com
@@ -5846,7 +5845,6 @@ DOMAIN-SUFFIX,globaladmedia.com
 DOMAIN-SUFFIX,globaladsales.com
 DOMAIN-SUFFIX,globaladv.net
 DOMAIN-SUFFIX,globalinteractive.com
-DOMAIN-SUFFIX,globaltraffico.com
 DOMAIN-SUFFIX,globalwebindex.net
 DOMAIN-SUFFIX,globase.com
 DOMAIN-SUFFIX,globel.co.uk
@@ -8167,8 +8165,6 @@ DOMAIN-SUFFIX,madcpms.com
 DOMAIN-SUFFIX,madhouse.cn
 DOMAIN-SUFFIX,madmini.com
 DOMAIN-SUFFIX,madnet.ru
-DOMAIN-SUFFIX,madsabs.com
-DOMAIN-SUFFIX,madsans.com
 DOMAIN-SUFFIX,madserving.com
 DOMAIN-SUFFIX,madsone.com
 DOMAIN-SUFFIX,maebtjn.com
@@ -8894,7 +8890,6 @@ DOMAIN-SUFFIX,net-filter.com
 DOMAIN-SUFFIX,netaffiliation.com
 DOMAIN-SUFFIX,netagent.cz
 DOMAIN-SUFFIX,netapplications.com
-DOMAIN-SUFFIX,netavenir.com
 DOMAIN-SUFFIX,netbiscuits.net
 DOMAIN-SUFFIX,netcatx.com
 DOMAIN-SUFFIX,netclickstats.com
@@ -9635,7 +9630,6 @@ DOMAIN-SUFFIX,pipeaota.com
 DOMAIN-SUFFIX,pippio.com
 DOMAIN-SUFFIX,pippity.com
 DOMAIN-SUFFIX,pipsol.net
-DOMAIN-SUFFIX,pivotrunner.com
 DOMAIN-SUFFIX,pix.impdesk.com
 DOMAIN-SUFFIX,pix.speedbit.com
 DOMAIN-SUFFIX,pix.tagcdn.com
@@ -10852,7 +10846,6 @@ DOMAIN-SUFFIX,selfishsea.com
 DOMAIN-SUFFIX,sellhealth.com
 DOMAIN-SUFFIX,sellpoint.net
 DOMAIN-SUFFIX,sellpoints.com
-DOMAIN-SUFFIX,selwrite.com
 DOMAIN-SUFFIX,semantiqo.com
 DOMAIN-SUFFIX,semasio.net
 DOMAIN-SUFFIX,sematext.com
@@ -11319,7 +11312,6 @@ DOMAIN-SUFFIX,st123.info
 DOMAIN-SUFFIX,sta.ganji.com
 DOMAIN-SUFFIX,stack-sonar.com
 DOMAIN-SUFFIX,stackadapt.com
-DOMAIN-SUFFIX,stackattacka.com
 DOMAIN-SUFFIX,stadig0.ifeng.com
 DOMAIN-SUFFIX,stagingjobshq.com
 DOMAIN-SUFFIX,staleshow.com
@@ -13843,7 +13835,6 @@ DOMAIN,49453k0l.vs.loveota.com
 DOMAIN,4affiliate.net
 DOMAIN,4au.htf16a.cn
 DOMAIN,4dex.io
-DOMAIN,4dsbanner.net
 DOMAIN,4dsply.com
 DOMAIN,4dtrk.com
 DOMAIN,4f2sm1y1ss.com
@@ -17243,7 +17234,6 @@ DOMAIN,globaladmedia.com
 DOMAIN,globaladsales.com
 DOMAIN,globaladv.net
 DOMAIN,globalinteractive.com
-DOMAIN,globaltraffico.com
 DOMAIN,globalwebindex.net
 DOMAIN,globase.com
 DOMAIN,globel.co.uk
@@ -18739,7 +18729,6 @@ DOMAIN,mad1.jirou.com
 DOMAIN,madadsmedia.com
 DOMAIN,madcpms.com
 DOMAIN,madnet.ru
-DOMAIN,madsabs.com
 DOMAIN,madsone.com
 DOMAIN,maebtjn.com
 DOMAIN,magiq.com
@@ -19228,7 +19217,6 @@ DOMAIN,net-filter.com
 DOMAIN,netaffiliation.com
 DOMAIN,netagent.cz
 DOMAIN,netapplications.com
-DOMAIN,netavenir.com
 DOMAIN,netbiscuits.net
 DOMAIN,netclickstats.com
 DOMAIN,netcore.co.in
@@ -19715,7 +19703,6 @@ DOMAIN,pipeaota.com
 DOMAIN,pippio.com
 DOMAIN,pippity.com
 DOMAIN,pipsol.net
-DOMAIN,pivotrunner.com
 DOMAIN,pix.speedbit.com
 DOMAIN,pixanalytics.com
 DOMAIN,pixazza.com
@@ -20541,7 +20528,6 @@ DOMAIN,selfishsea.com
 DOMAIN,sellhealth.com
 DOMAIN,sellpoint.net
 DOMAIN,sellpoints.com
-DOMAIN,selwrite.com
 DOMAIN,semantiqo.com
 DOMAIN,semasio.net
 DOMAIN,sematext.com
@@ -20876,7 +20862,6 @@ DOMAIN,ssl2anyone5.com
 DOMAIN,st.ipornia.com
 DOMAIN,stack-sonar.com
 DOMAIN,stackadapt.com
-DOMAIN,stackattacka.com
 DOMAIN,stagingjobshq.com
 DOMAIN,staleshow.com
 DOMAIN,star-cntr-5.com
